@@ -53,6 +53,24 @@ public class MainActivity extends AppCompatActivity {
                 bitmapImageView.setImageBitmap(imageView2Bitmap(imgNorm));
             }
         });
+
+/*
+        //configuramos el boton siguiente para que envie el bitmap a la siguiente activity
+        btnSgte= (Button)findViewById(R.id.btn_siguiente);
+
+        btnSgte.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sgte= new Intent(MainActivity.this, Main2Activity.class);
+                sgte.putExtra("bitmap", R.id.bitmapToImageView);
+                startActivity(sgte);
+            }
+        });
+
+*/
+
+
+
     }
 
 
